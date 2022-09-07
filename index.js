@@ -3,6 +3,7 @@ const winston = require("winston");
 const cors = require("cors");
 const app = express();
 app.use(cors());
+require("./routes/video");
 require("./startups/validate")();
 require("./startups/logging")();
 require("./startups/routes")(app);

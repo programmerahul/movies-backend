@@ -19,6 +19,7 @@ router.post("/", auth, async (req, res) => {
     genre: genre,
     numberInStock: req.body.numberInStock,
     dailyRentalRate: req.body.dailyRentalRate,
+    filename: req.body.filename,
   });
   await movie.save();
   res.send(movie);
