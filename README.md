@@ -1,2 +1,1 @@
-1. set vidly_jwtPrivateKey
-2. hosted at:https://backend-for-movies-services.herokuapp.com/
+1. hosted at:https://recipesbackend-odby.onrender.com/
